@@ -1,0 +1,357 @@
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #c9d6df;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #00252e;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+
+
+
+.about {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutbox {
+flex:1;
+max-width: 200px;
+min-width: 100px;
+flex-direction:column;
+}
+
+.aboutbox div {
+  height: 40px;
+}
+
+
+.article {
+  color: #00252e;
+}
+
+.article:nth-of-type(1) {
+  flex:1;
+  max-width: 500px;
+  min-width: 350px;
+  align-self: center;
+  padding-right: 40px;
+  margin-bottom: 10px;
+
+}
+
+.article:nth-of-type(2) {
+  flex:2;
+  align-self: center;
+
+  max-width: 700px;
+  min-width: 50%;
+}
+
+.attribution{
+  margin-bottom: 0px;
+}
+
+.bigimage {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+.bottomcontainer {
+  background-color: #00252e;
+  color: #ebfbff;
+  margin:200px auto 0 auto;
+  width: 100%;
+
+}
+
+.bottomlogo {
+  width: 100%;
+  height:auto;
+
+}
+
+.bottomlogo img {
+  width:100%;
+  height:auto;
+  max-width: 200px;
+  margin-bottom: 40px;
+}
+
+.bottomgetstarted {
+  border-radius: 10px 10px;
+  box-shadow: 0px 0px 5px #E8EAEA;
+  padding: 20px;
+  min-width: 300px;
+  width:50%;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  left: 20%;
+  z-index: 1;
+  background-color: white;
+
+}
+
+.box-1 {
+min-width: 300px;
+max-width: 450px;
+padding: 0 90px;
+flex:1;
+
+}
+
+.box-1 p {
+  color: #96A4AF;
+}
+
+.box-2 {
+flex:1;
+min-width: 200px;
+max-width: 350px;
+padding: 40px 20px;
+}
+
+.box-3 {
+  min-width: 300px;
+  max-width: 450px;
+  flex:1;
+  padding: 20px;
+}
+
+.box-3 p {
+  color: #96A4AF;
+}
+
+.box-4 {
+  flex:1;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 50px 90px;
+
+}
+
+.contactgrid {
+display:grid;
+grid-template-columns: 30px 350px;
+grid-gap: 30px 0px;
+flex: 350px;
+max-width: 400px;
+min-width: 400px;
+margin-bottom: 30px;
+
+}
+
+.contactimg {
+position: relative;
+top:5px;
+}
+
+
+.copyright {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 10px;
+}
+
+.flexbottom {
+  max-width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7.5%;
+  padding-top: 150px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.flexmiddle {
+  display:flex;
+  flex-wrap: wrap;
+  border-radius: 10px 10px;
+  box-shadow: 0px 0px 5px #E8EAEA;
+  align-items: center;
+  justify-content:space-between;
+  margin-bottom: 30px;
+
+}
+
+.flexmiddle-2 {
+  display:flex;
+  flex-wrap: wrap;
+  border-radius: 10px 10px;
+  box-shadow: 0px 0px 5px #E8EAEA;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+
+.flextop {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 150px 5% 0 5%;
+}
+
+footer {
+  background-color: #00252e;
+}
+.getstarted {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 0px 7px #d6d6d6;
+  -moz-box-shadow: 0px 0px 7px #d6d6d6;
+  box-shadow: 0px 0px 7px #d6d6d6;
+  font-family: 'Poppins', sans-serif;
+  color: #dae4eb;
+  font-size: 12px;
+  background: #ff52bf;
+  padding: 15px 70px 15px 70px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+.getstarted:hover {
+  background: #fa3eb5;
+  text-decoration: none;
+}
+
+.getstarteddiv {
+ margin-top: 30px;
+}
+
+
+
+.heroimage {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #ebfbff;
+  z-index: -1;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.icons {
+  max-width: 30px;
+  height:auto;
+}
+
+.intro {
+  color: #00252e;
+}
+
+.middlecontainer {
+  max-width: 85%;
+  margin: 100px auto 100px auto;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mockup {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.socialmedia {
+  flex:1;
+  display:flex;
+  max-width: 200px;
+  min-width: 100px;
+  align-items: flex-start;
+
+
+}
+
+.socialmedia img {
+width: 40px;
+margin-right: 10px;
+}
+
+
+.topcontainer {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+  background-image: url(file:///Users/mattwi/OneDrive%20-%20Matchesfashion.com/Docs/Udemy/Development/Web%20Development/huddle%20landing%20page/images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-color: #ebfbff
+
+}
+
+.topcontainer  p{
+  font-weight: 700;
+}
+
+.toplogo {
+  position: absolute;
+  display: inline-block;
+  top: 50px;
+  left: 5%;
+  max-width: 200px;
+  height: auto;
+}
+
+.tryfree {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 0px 7px #d6d6d6;
+  -moz-box-shadow: 0px 0px 7px #d6d6d6;
+  box-shadow: 0px 0px 7px #d6d6d6;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+  font-size: 18px;
+  background: #ffffff;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  position: absolute;
+  display: inline-block;
+  top: 50px;
+  right: 50px;
+}
+
+.tryfree:hover {
+  background: #e1f0fa;
+  text-decoration: none;
+}

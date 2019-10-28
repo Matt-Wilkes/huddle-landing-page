@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="CSS/mobile.css" media="(max-width:800px)"/>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,600&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
@@ -18,7 +19,7 @@
 </head>
 <body>
 
-  <img class="heroimage" src="images/bg-hero-desktop.svg" alt="" style='max-width: 100%'/>
+  <!--<img class="heroimage" src="images/bg-hero-desktop.svg" alt="" style='max-width: 100%'/>-->
 
   <div class="topcontainer">
 
@@ -101,49 +102,77 @@
     </div>
   </div>
 
-  <div class="">
-    Ready To Build Your Community?
+  <div class="bottomgetstarted">
+    <h2>Ready To Build Your Community?</h2>
 
-    Get Started For Free
+    <div class="">
+      <a class="getstarted"href="#">Get Started For Free</a>
+    </div>
   </div>
+
+
 <div class="bottomcontainer">
 
-  <div class="bottomgrid">
 
-    <div class"gridlogo">
-      <img src="images/logo.svg" alt="">
+
+  <div class="flexbottom">
+
+    <div class="bottomlogo">
+      <img class=""src="images/logo2.svg" alt="">
     </div>
 
-    <div class="contact">
-      <img class="contacticons" src="images/icon-location.svg" alt="location">
-      <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua</p>
-      <img class="contacticons" src="images/icon-phone.svg" alt="">
-      <p>+1-543-123-4567</p>
-      <img class="contacticons" src="images/icon-email.svg" alt="">
-      <p>example@huddle.com</p>
+    <div class="contactgrid">
+
+        <img class="contactimg" src="images/icon-location.svg" alt="location">
+        <div >Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua</div>
+
+        <img class="contactimg" src="images/icon-phone.svg" alt="">
+        <div>
+          +1-543-123-4567
+        </div>
+
+        <img class="contactimg" src="images/icon-email.svg" alt="">
+        <div>
+          example@huddle.com
+        </div>
     </div>
 
     <div class="about">
-      <div>
-        <p><a>About Us</a></p>
-        <p><a>What We Do</a></p>
-        <p><a>FAQ</a></p>
+      <div class="aboutbox">
+        <div>
+          <a>About Us</a>
+        </div>
+        <div>
+          <a>What We Do</a>
+        </div>
+        <div>
+          <a>FAQ</a>
+        </div>
+
       </div>
-      <div>
-        <p><a>Career</a></p>
-        <p><a>Blog</a></p>
-        <p><a>Contact Us</a></p>
+      <div class="aboutbox">
+        <div>
+          <a>Career</a>
+        </div>
+        <div>
+          <a>Blog</a>
+        </div>
+        <div>
+          <a>Contact Us</a>
+        </div>
       </div>
     </div>
 
     <div class="socialmedia">
-      <p>images go here</p>
+      <img class="icons" src="images/twitter.svg" alt="">
+      <img class="icons" src="images/facebook.svg" alt="">
+      <img class="icons" src="images/instagram.svg" alt="">
     </div>
 
   </div>
   <p class="copyright">&copy; Copyright 2018 Huddle. All rights reserved.</p>
-
+</body>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
@@ -151,5 +180,5 @@
     </p>
   </footer>
 </div>
-</body>
+
 </html>
