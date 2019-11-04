@@ -1,9 +1,15 @@
-body {
+html, body {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin: 0;
+
   color: #c9d6df;
+
+  width:100%;
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+
 }
 
 h1 {
@@ -76,6 +82,8 @@ flex-direction:column;
 
 .attribution{
   margin-bottom: 0px;
+  text-align: center;
+  font-size: 10px;
 }
 
 .bigimage {
